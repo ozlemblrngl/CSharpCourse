@@ -23,7 +23,7 @@
         // ForEachLoop();
 
 
-        // ************ ASAL SAYI KONTOLÜ ÖRNEĞİ***************************
+        // ************ ASAL SAYI KONTROLÜ ÖRNEĞİ***************************
 
         if (IsPrimeNumber(6))
         {
