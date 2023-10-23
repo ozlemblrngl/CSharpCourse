@@ -42,7 +42,7 @@
             {
                 Console.WriteLine(regions[i,j]);
             }
-            Console.WriteLine("*****************") ;
+            Console.WriteLine("*****************");
         }
            
 
