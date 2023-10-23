@@ -97,7 +97,6 @@
         // enumlarda tip dönüşümleri önemlidir.
 
 
-
         // *************** 11- Var Keyword *******************************
 
         var number11 = 10;
