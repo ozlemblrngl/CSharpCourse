@@ -34,7 +34,7 @@
         // out için int number1; yazmamız yani değer atamadan boş değerli yazmamız mümkündür.
 
         Console.WriteLine(Multiply(2, 4));
-        Console.WriteLine(Multiply(2, 4, 5));
+        Console.WriteLine(Multiply(2, 4,5));
 
         Console.WriteLine(Add4(1, 2, 3, 4, 5, 6)); // params metodu ile buraya dilediğimiz kadar sayı yazabiliriz. ancak tiplerin aynı olması lazım
 
