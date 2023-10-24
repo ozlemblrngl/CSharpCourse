@@ -5,16 +5,32 @@ internal class Program
     private static void Main(string[] args)
     {
 
-        InterfacesIntro();
+        // InterfacesIntro();
 
-        CustomerManager customerManager = new CustomerManager();
-        customerManager.Add(new OracleCustomerDal());
-        customerManager.Add(new SqlServerCustomerDal());
+       // Demo();
+
+        ICustomerDal[] customerDals = new ICustomerDal[3]
+        {
+            new SqlServerCustomerDal(), 
+            new OracleCustomerDal(),
+            new MySqlCustomerDal(),
+         };
+
+        foreach (var customerDal in customerDals) 
+        {
+         customerDal.Add();
+        }
 
 
         Console.ReadLine();
     }
 
+    static void Demo()
+    {
+        CustomerManager customerManager = new CustomerManager();
+        customerManager.Add(new OracleCustomerDal());
+        customerManager.Add(new SqlServerCustomerDal());
+    }
     static void InterfacesIntro()
     {
         PersonManager manager = new PersonManager();
@@ -60,6 +76,10 @@ internal class Program
 // ancak aşağıda yer alan örneklerde de görüleceği üzere IPerson person = new Student() ya da IPerson person = new Customer() şeklinde ilgili sınıflardan nesne üretimi yapılabilir.
 
 // amacımız uygulamanın bağımlılıklarını indirmek daha moduler kullanımı sağlamak.
+
+
+// polimorphism çokbiçimlilik anlamına gelir. Bir nesneyi farklı amaçlarla implemente edip o implementasyonların belli bir kısmına veya tamamına ulaşmaktır.
+// örneklerimizde polimorphism yaptık. ICustomer da hem Oracle hem Sql classları içinde implemente ettik.
 
 interface IPerson
 {
