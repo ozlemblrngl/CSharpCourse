@@ -7,16 +7,15 @@
         int columnNumber = int.Parse(Console.ReadLine());
 
         while (columnNumber <= 0 || columnNumber > 8)
-{
+        {
             Console.WriteLine("Lütfen 1 ile 8 arasında bir sayı giriniz.");
 
             Console.WriteLine("Lütfen kolon sayısını giriniz.");
 
             columnNumber = int.Parse(Console.ReadLine());
 
-            if (columnNumber > 0 ||  columnNumber < 8)
-        break;
-
+            if (columnNumber > 0 || columnNumber < 8)
+                break;
 
         }
 
