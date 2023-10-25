@@ -21,9 +21,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecapDemo1", "RecapDemo1\Re
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Interfaces", "Interfaces\Interfaces.csproj", "{54D094C8-6FC6-431E-A692-4878D06DD559}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{04438C25-7E89-4797-AD30-056BAC4B7DDF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesDemo", "InterfacesDemo\InterfacesDemo.csproj", "{04438C25-7E89-4797-AD30-056BAC4B7DDF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Inheritance", "Inheritance\Inheritance.csproj", "{9E489033-4070-4291-940C-A51D897E093C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Inheritance", "Inheritance\Inheritance.csproj", "{9E489033-4070-4291-940C-A51D897E093C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LotteryAppBasic", "LotteryAppBasic\LotteryAppBasic.csproj", "{43AF8B09-BE48-4CDB-AA1C-85399E3CEC21}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -75,6 +77,10 @@ Global
 		{9E489033-4070-4291-940C-A51D897E093C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9E489033-4070-4291-940C-A51D897E093C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9E489033-4070-4291-940C-A51D897E093C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43AF8B09-BE48-4CDB-AA1C-85399E3CEC21}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43AF8B09-BE48-4CDB-AA1C-85399E3CEC21}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43AF8B09-BE48-4CDB-AA1C-85399E3CEC21}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43AF8B09-BE48-4CDB-AA1C-85399E3CEC21}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
